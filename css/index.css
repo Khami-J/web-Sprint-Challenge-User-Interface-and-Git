@@ -31,21 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 * {
     box-sizing: border-box;
@@ -76,7 +62,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -143,4 +128,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.up{
+    display: flex;
+}
+.links{
+    display: flex;
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;   
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sky{
+    display:flex;
+    flex-direction:row;
+    flex-flow:flow wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:2% 0 2% 0;
+}
+.about-page{
+    display: flex;
+    width:50%;
+    flex-flow: wrap;
+    margin:0 auto;
+ 
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+.flex section{
+    width: 70vh;
+    height: 50vh;
+    margin: 1% 2% 4% 1%;
+}
+.last{
+    display: flex;
+    width:50%;
+    flex-flow: wrap;
+    margin:1% auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-lef
 }
