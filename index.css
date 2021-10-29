@@ -63,6 +63,9 @@ width: 75%;
 display: flex;
 margin-left: 12%;
 }
+.top a{
+    color:black;
+}
 
 .top-content{
 display: flex;
@@ -93,8 +96,6 @@ font-size:20px ;
     justify-content: space-around;
     color: white;
 }
-
-
 
 .box1{
     background: teal;
@@ -130,4 +131,48 @@ font-size:20px ;
 
 .bottom-content{
 display: flex;
+
+}
+
+footer {
+    background-color: black;
+    
+}
+.bottom a{
+    color:white;
+}
+
+
+.sky{
+    display:flex;
+    flex-direction:row;
+    flex-flow:flow wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:2% 0 2% 0;
+}
+.about-page{
+    display: flex;
+    width:50%;
+    flex-flow: wrap;
+    margin:0 auto;
+ 
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+.flex section{
+    width: 70vh;
+    height: 50vh;
+    margin: 1% 2% 4% 1%;
+}
+.last{
+    display: flex;
+    width:50%;
+    flex-flow: wrap;
+    margin:0 auto;
 }
